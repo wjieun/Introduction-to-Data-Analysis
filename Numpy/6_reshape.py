@@ -1,0 +1,10 @@
+import numpy as np
+arr = np.arange(12)
+print(arr)
+print(arr.ndim)
+print(arr.shape)
+print()
+arr2 = arr.reshape(3, 4)
+print(arr2)
+print(arr2.ndim)
+print(arr2.shape)
